@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a pricing card component with a plan name, price, list of features, and a CTA button
+            - img [ref=e58]
+          - generic [ref=e79]:
+            - img [ref=e82]
+            - generic [ref=e87]:
+              - generic [ref=e90]: str_replace_editor
+              - separator [ref=e91]
+              - generic [ref=e94]: str_replace_editor
+              - separator [ref=e95]
+              - generic [ref=e96]:
+                - paragraph [ref=e97]:
+                  - text: Done! Created a reusable
+                  - code [ref=e738]: PricingCard
+                  - text: "component with:"
+                - list [ref=e99]:
+                  - listitem [ref=e100]: Plan name, price, and billing period
+                  - listitem [ref=e101]: Feature list with checkmark icons
+                  - listitem [ref=e102]: Customizable CTA button with primary/secondary variants
+                  - listitem [ref=e103]: Optional "Most Popular" badge for highlighted plans
+                  - listitem [ref=e104]: Responsive grid layout in App.jsx showing 3 example pricing tiers
+          - generic [ref=e739]:
+            - generic [ref=e742]: Create a pricing card component with a plan name, price, list of features, and a CTA button
+            - img [ref=e745]
+          - generic [ref=e748]:
+            - img [ref=e751]
+            - generic [ref=e756]:
+              - generic [ref=e759]: str_replace_editor
+              - separator [ref=e760]
+              - generic [ref=e761]:
+                - img [ref=e762]
+                - generic [ref=e764]: Generating...
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e110]:
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118] [cursor=pointer]:
+              - img [ref=e119]
+              - img [ref=e121]
+              - generic [ref=e123]: components
+            - generic [ref=e126] [cursor=pointer]:
+              - img [ref=e127]
+              - generic [ref=e132]: PricingCard.jsx
+          - generic [ref=e134] [cursor=pointer]:
+            - img [ref=e135]
+            - generic [ref=e140]: App.jsx
+        - separator [ref=e141]
+        - code [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - generic [ref=e516]: "1"
+              - generic [ref=e154]: "2"
+              - generic [ref=e517]:
+                - generic [ref=e518] [cursor=pointer]: 
+                - generic [ref=e519]: "3"
+              - generic [ref=e521]: "4"
+              - generic [ref=e523]: "5"
+              - generic [ref=e525]: "6"
+              - generic [ref=e527]: "7"
+              - generic [ref=e171]: "8"
+              - generic [ref=e173]: "9"
+              - generic [ref=e175]: "10"
+              - generic [ref=e528]:
+                - generic [ref=e529] [cursor=pointer]: 
+                - generic [ref=e530]: "11"
+              - generic [ref=e180]: "12"
+              - generic [ref=e531]:
+                - generic [ref=e532] [cursor=pointer]: 
+                - generic [ref=e533]: "13"
+              - generic [ref=e534]:
+                - generic [ref=e535] [cursor=pointer]: 
+                - generic [ref=e536]: "14"
+              - generic [ref=e186]: "15"
+              - generic [ref=e188]: "16"
+              - generic [ref=e190]: "17"
+              - generic [ref=e537]:
+                - generic [ref=e538] [cursor=pointer]: 
+                - generic [ref=e539]: "18"
+              - generic [ref=e540]:
+                - generic [ref=e541] [cursor=pointer]: 
+                - generic [ref=e542]: "19"
+              - generic [ref=e543]:
+                - generic [ref=e544] [cursor=pointer]: 
+                - generic [ref=e545]: "20"
+              - generic [ref=e546]:
+                - generic [ref=e547] [cursor=pointer]: 
+                - generic [ref=e548]: "21"
+              - generic [ref=e201]: "22"
+              - generic [ref=e203]: "23"
+              - generic [ref=e550]: "24"
+              - generic [ref=e551]:
+                - generic [ref=e552] [cursor=pointer]: 
+                - generic [ref=e553]: "25"
+              - generic [ref=e554]:
+                - generic [ref=e555] [cursor=pointer]: 
+                - generic [ref=e556]: "26"
+              - generic [ref=e557]:
+                - generic [ref=e558] [cursor=pointer]: 
+                - generic [ref=e559]: "27"
+              - generic [ref=e560]:
+                - generic [ref=e561] [cursor=pointer]: 
+                - generic [ref=e562]: "28"
+              - generic [ref=e216]: "29"
+              - generic [ref=e218]: "30"
+              - generic [ref=e220]: "31"
+              - generic [ref=e222]: "32"
+              - generic [ref=e224]: "33"
+              - generic [ref=e226]: "34"
+              - generic [ref=e564]: "35"
+              - generic [ref=e565]:
+                - generic [ref=e566] [cursor=pointer]: 
+                - generic [ref=e567]: "36"
+            - generic [ref=e438]:
+              - generic [ref=e669]: "import { Check } from 'lucide-react';"
+              - generic [ref=e671]: "export default function PricingCard({"
+              - generic [ref=e673]: planName,
+              - generic [ref=e675]: price,
+              - generic [ref=e677]: period = '/month',
+              - generic [ref=e679]: features = [],
+              - generic [ref=e681]: buttonText = 'Get Started',
+              - generic [ref=e683]: buttonVariant = 'primary',
+              - generic [ref=e685]: highlighted = false,
+              - generic [ref=e687]: "}) {"
+              - generic [ref=e689]: const baseStyles = 'w-full px-6 py-3 rounded-lg font-semibold transition-colors';
+              - generic [ref=e691]: const buttonStyles =
+              - generic [ref=e693]: buttonVariant === 'primary'
+              - generic [ref=e695]: "? 'bg-blue-600 text-white hover:bg-blue-700'"
+              - generic [ref=e697]: ": 'bg-gray-200 text-gray-900 hover:bg-gray-300';"
+              - generic [ref=e700]: return (
+              - generic [ref=e702]: <div
+              - generic [ref=e704]: "className={`rounded-xl border-2 p-8 flex flex-col h-full transition-all ${"
+              - generic [ref=e706]: highlighted
+              - generic [ref=e708]: "? 'border-blue-600 bg-white shadow-xl scale-105'"
+              - generic [ref=e710]: ": 'border-gray-200 bg-white shadow-lg'"
+              - generic [ref=e712]: "}`}"
+              - generic [ref=e714]: ">"
+              - generic [ref=e716]: "{highlighted && ("
+              - generic [ref=e718]: <div className="mb-4 inline-block">
+              - generic [ref=e720]: <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1
+              - generic [ref=e722]: MOST POPULAR
+              - generic [ref=e724]: </span>
+              - generic [ref=e726]: </div>
+              - generic [ref=e728]: ")}"
+              - generic [ref=e731]: "<h3 className=\"text-2xl font-bold text-gray-900 mb-2\">{planName}</h3>"
+              - generic [ref=e734]: <div className="mb-6">
+              - generic [ref=e736]: rounded-full">
+            - textbox "Editor content" [ref=e513]: "<button className={`${baseStyles} ${buttonStyles}`}>{buttonText}</button> </div> ); }"
+  - alert [ref=e51]
+  - generic [ref=e108]:
+    - alert
+    - alert

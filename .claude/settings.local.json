@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\SureshChoudhary\\\\Downloads\\\\uigen\\\\uigen\\\\src\" -Recurse -Force | Select-Object -ExpandProperty FullName | ForEach-Object { $_.Replace\\(\"C:\\\\Users\\\\SureshChoudhary\\\\Downloads\\\\uigen\\\\uigen\\\\\", \"\"\\) })",
+      "mcp__playwright"
+    ]
+  }
+}
